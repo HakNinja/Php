@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<style>
+		body{
+			background-color:orange;
+				}
+		p{
+			color:red;
+			}	
+		#login{
+		    background-color:yellow;
+		    width:49%;
+		    height: 280px;
+		    float:right;
+			}	
+		#signup{
+		    background-color:yellow;
+		    width:49%;
+		    height: 280px;
+		    float:left;
+			}
+		</style>
+	</head>
+	<body>
+	    <p><center><font size="200px">Welcome</font></center></p>
+	    <div id="login"><center>
+	        <p >Sign in portal</p>
+		    <form action="login.php" method="post">
+		        &nbsp;&nbsp;Enter username : <input type="text" placeholder="username" name="username" required/>
+		        <br/><br/>
+		       &nbsp;&nbsp; Enter password : <input type="password" placeholder="password" name="password" required/>
+		       <br/><br/></br>
+		        <input type="submit" value="Sign In"/>
+		    </form>
+			</center>
+		</div>
+		
+	    <div id="signup"><center>
+	        <p>Sign up portal</p>
+		    <form action="signup.php" method="post">
+		        &nbsp;&nbsp;&nbsp; Enter username : <input type="text" placeholder="username" name="username" required/>
+		        <br/><br/>
+		        &nbsp;&nbsp;&nbsp; Enter password : <input type="password" placeholder="password" name="password1" required/>
+		        <br/><br/>
+		        Confirm password : <input type="password" placeholder="confirm password" name="password2" required/>
+		        <br/><br/></br>
+		        <input type="submit" value="Sign up"/>
+		    </form>
+		    </center>
+		</div>
+	</body>
+</html>
